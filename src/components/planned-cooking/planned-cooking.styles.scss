@@ -1,0 +1,84 @@
+.planned-cooking {
+  height: 50%;
+  width: 100%;
+  color: white;
+  padding: 0px 20px;
+  position: relative;
+
+  .upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    .upper-heading {
+      font-size: 17px;
+      font-weight: 400;
+    }
+
+    .see-all {
+      text-decoration: none;
+      color: white;
+      font-size: 14px;
+    }
+  }
+
+  .planned {
+    .cooking-image {
+      width: 100%;
+      margin: 20px 0px;
+
+      img {
+        width: 100%;
+        width: 100%;
+        border-radius: 20px;
+        background-position: center;
+        background-size: cover;
+      }
+    }
+
+    .about-planned {
+      width: 90%;
+      background-color: #303141;
+      border-radius: 20px;
+      position: absolute;
+      bottom: -10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+
+      .left {
+        width: 80%;
+
+        h1 {
+          font-size: 15px;
+          margin-bottom: 10px;
+          font-weight: 500;
+        }
+
+        h3 {
+          font-size: 11px;
+          font-weight: 200;
+          word-spacing: 2px;
+        }
+      }
+
+      .open-button {
+        border-radius: 50%;
+        background-color: rgb(151, 155, 235);
+        width: 35px;
+        height: 35px;
+        text-align: center;
+        line-height: 30px;
+        font-size: 21px;
+        font-weight: 400;
+
+        a {
+          text-decoration: none;
+          color: rgba(255, 255, 255, 0.897);
+        }
+      }
+    }
+  }
+}

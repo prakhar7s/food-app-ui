@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background: #c5b2fa;
+}
+
+.app {
+  width: 28%;
+  margin: 0 auto;
+  background: linear-gradient(rgb(17, 21, 29), #2f2e3e);
+  height: 98vh;
+  border-radius: 20px;
+}
+
+@media all and (max-width: 700px) {
+  .app {
+    width: 80%;
+  }
+}
