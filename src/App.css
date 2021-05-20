@@ -6,6 +6,15 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
 body {
   height: 100vh;
   width: 100vw;
@@ -13,15 +22,20 @@ body {
 }
 
 .app {
-  width: 28%;
+  width: 34%;
+  min-width: 400px;
   margin: 0 auto;
   background: linear-gradient(rgb(17, 21, 29), #2f2e3e);
-  height: 98vh;
-  border-radius: 20px;
+  height: 100vh;
+  border-radius: 15px;
+  position: relative;
+  padding-bottom: 150px;
 }
 
 @media all and (max-width: 700px) {
   .app {
-    width: 80%;
+    width: 100%;
+    min-width: fit-content;
+    border-radius: 0;
   }
 }
